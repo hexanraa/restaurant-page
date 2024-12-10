@@ -8,6 +8,10 @@ const Nav = () => {
     const menu = createElement('button', 'Menu')
     const about = createElement('button', 'About')
 
+    home.id = 'home'
+    menu.id = 'menu'
+    about.id = 'about'
+
     navEl.append(home, menu, about)
 
 }
